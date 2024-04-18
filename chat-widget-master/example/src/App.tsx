@@ -173,6 +173,7 @@ const App = ({disco, displayChatWindow}: Props) => {
               maxWidth: '100vh',
               bottom: `${vpWidth < 400 ? '0' : '90px'}`,
               right: `${vpWidth < 400 ? '0' : '20px'}`,
+              borderRadius: `${vpWidth < 400 ? '0' : '10px'}`,
             },
 
             toggleContainer: {

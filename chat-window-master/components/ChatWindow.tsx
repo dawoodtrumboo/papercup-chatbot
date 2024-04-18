@@ -606,10 +606,10 @@ class ChatWindow extends React.Component<Props, State> {
         className={isMobile ? 'Mobile' : ''}
         sx={{
           bg: 'background',
+          flex: 1,
           flexDirection: 'column',
           height: '100%',
           width: '100%',
-          flex: 1,
         }}
       >
         <Box sx={{bg: 'primary', position: 'relative'}}>
