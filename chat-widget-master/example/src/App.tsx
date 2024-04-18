@@ -62,9 +62,10 @@ const App = ({disco, displayChatWindow}: Props) => {
     setCustomerDetails(params);
   };
 
-  const [isOpen, setIsOpen] = useState(false);
-  const [vpWidth, setVpWidth] = useState(window.innerWidth);
+  const [isOpen, setIsOpen] = useState(false); //This state stores the info about whether the chat window is open or not
+  const [vpWidth, setVpWidth] = useState(window.innerWidth); // This state stores the viewport width
 
+  // This UseEffect will be called whenever the size of the screen is changed, eg going from potrait to landscape
   useEffect(() => {
     const handleResize = () => {
       setVpWidth(window.innerWidth);
@@ -165,6 +166,7 @@ const App = ({disco, displayChatWindow}: Props) => {
           // position={{side: 'right', offset: 80}}
           debug
           disableAnalyticsTracking
+          // This style object can be changed according to our needs. Right it's implemented in accordance to the assignment
           styles={{
             chatContainer: {
               width: `${vpWidth < 400 ? '100vw' : '380px'}`,
