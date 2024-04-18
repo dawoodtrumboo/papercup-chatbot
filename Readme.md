@@ -74,7 +74,7 @@ To develop this chatbot, we need to run both directories side by side to see the
 - Changes made in theme
 
   The changes in the theme was done in **chat-window-master**. There is a helper function (theme.ts) where I change the colors according to the theme I wanted.
-  `eg. I change the overide object's primary color from blue to yellow`.
+  `eg. I changed the overide object's primary color from blue to yellow`.
 
 - Changes made for Responsiveness
 
