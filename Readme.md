@@ -80,3 +80,11 @@ To develop this chatbot, we need to run both directories side by side to see the
 
   For responsiveness the widget components provides us with the style attribute where we can change the width and height of the window. The changes I did are in the **chat-widget-master/example/src/App.tsx**. So what I did is , I created a variable which would capture the size of the window width because inline styling doesn't support media queries. Then I used that window size to dynamically set the size of the widget by making changes in the style object.
   Now here I was facing an issue , the toggleButton was coming on top of the chat window. So I created a function and a state to watch whether the chat window is open or close. So the widget comes with attributes such as onChatOpened & onChatClosed. I binded them with function which was setting the isOpen state to either true or false. So on mobile screens whenever the chat was opened the chat widget would hide its toggleButton.
+
+## Appreciation
+
+I wanted to express my sincere thanks for the chance to contribute to this open source library. It's been an enlightening experience, and I'm grateful for the learning opportunity.
+I'm confident that this assessment reflects my skills well. I'm eager to join your stellar team and contribute further.
+
+_Best Regards_
+_Dawood Trumboo_
