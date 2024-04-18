@@ -7,10 +7,10 @@ This repo contains the code for the chat window implemented by Dawood Trumboo
 # Clone the repository
 
 ```bash
-npm run dev
+git clone https://github.com/dawoodtrumboo/papercup-chatbot.git
 ```
 
-# Setup the widget which will be rendered
+# Setup the Chat Widget which will be rendered
 
 Go into chat-widget-master
 
@@ -38,7 +38,7 @@ npm start
 
 This will start the app at [http://localhost:3000](http://localhost:3000).
 
-# Setup the widget window
+# Setup the Widget Window
 
 Go into chat-window-master
 
@@ -65,6 +65,6 @@ You can start editing the page by modifying the components in the `/components` 
 ## Development
 
 You'll notice on the localhost:8080, nothing gets render, the chatbot will be rendered on localhost:3000.
-So what we can do is we host the chat-window-master in our own server and instead of papercup's baseUrl we'll overide it with setting the iframeUrlOverride = {our server url} ,
+In case of implementing in chatchot for inhotel.io what we can do is we host the chat-window-master on our own server and instead of papercup's baseUrl in the chat widget component, we'll overide it with adding the iframeUrlOverride = {our server url} ,
 
 To develop this chatbot, we need to run both directories side by side to see the changes.
